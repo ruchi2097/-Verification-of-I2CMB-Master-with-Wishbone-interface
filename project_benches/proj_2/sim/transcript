@@ -1,0 +1,198 @@
+# vsim -c -classdebug -msgmode both -do "run -a; quit" optimized_debug_top_tb 
+# Start time: 20:23:24 on Apr 15,2024
+# //  Questa Sim
+# //  Version 2023.4 linux Oct  9 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.i2c_if(fast)
+# Loading work.operation(fast)
+# Loading work.wb_if(fast)
+# Loading work.ncsu_pkg(fast)
+# Loading work.i2c_pkg(fast)
+# Loading work.wb_pkg(fast)
+# Loading work.i2cmb_env_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.wb_if(fast__2)
+# Loading work.i2c_if_sv_unit(fast)
+# Loading work.i2c_if(fast__2)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.iicmb_m_wb(str)#1
+# Loading work.wishbone(rtl)#1
+# Loading ieee.numeric_std(body)
+# Loading work.iicmb_pkg(body)
+# Loading work.regblock(rtl)#1
+# Loading work.iicmb_int_pkg(body)
+# Loading work.iicmb_m(str)#1
+# Loading work.mbyte(rtl)#1
+# Loading work.mbit(rtl)#1
+# Loading work.conditioner_mux(str)#1
+# Loading work.conditioner(str)#1
+# Loading work.filter(rtl)#1
+# Loading work.bus_state(rtl)#1
+# run -a
+# ----------------------------------------------------------------
+# //  NCSU Package 
+# //  Version 1.0a
+# ----------------------------------------------------------------
+# 
+# 
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test_bench.env.wb_ag.driver called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test_bench.env.wb_ag.monitor called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test_bench.env.wb_ag.wb_coverage called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test_bench.env.i2c_ag.driver called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test_bench.env.i2c_ag.monitor called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test_bench.env.i2c_ag.i2c_coverage called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test_bench.env.pred called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test_bench.env.scbd called
+# NCSU_INFO:Time                    0:ncsu_component::build():  of test_bench.env.coverage called
+# NCSU_INFO:Time            298463500:ncsu_component::nb_transport():  of test_bench.env.scbd called
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 2 I2C_ADDRESS:0x22 I2C_DATA :0x'{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31} OPERATION:0x0
+# NCSU_INFO:Time            598228500:ncsu_component::nb_transport():  of test_bench.env.scbd called
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 99816 I2C_ADDRESS:0x22 I2C_DATA :0x'{131, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 199787 I2C_ADDRESS:0x22 I2C_DATA :0x'{64} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 206467 I2C_ADDRESS:0x22 I2C_DATA :0x'{63} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 212985 I2C_ADDRESS:0x22 I2C_DATA :0x'{65} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 219501 I2C_ADDRESS:0x22 I2C_DATA :0x'{62} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 226019 I2C_ADDRESS:0x22 I2C_DATA :0x'{66} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 232536 I2C_ADDRESS:0x22 I2C_DATA :0x'{61} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 239053 I2C_ADDRESS:0x22 I2C_DATA :0x'{67} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 245569 I2C_ADDRESS:0x22 I2C_DATA :0x'{60} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 252087 I2C_ADDRESS:0x22 I2C_DATA :0x'{68} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 258604 I2C_ADDRESS:0x22 I2C_DATA :0x'{59} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 265121 I2C_ADDRESS:0x22 I2C_DATA :0x'{69} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 271638 I2C_ADDRESS:0x22 I2C_DATA :0x'{58} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 278155 I2C_ADDRESS:0x22 I2C_DATA :0x'{70} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 284672 I2C_ADDRESS:0x22 I2C_DATA :0x'{57} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 291189 I2C_ADDRESS:0x22 I2C_DATA :0x'{71} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 297705 I2C_ADDRESS:0x22 I2C_DATA :0x'{56} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 304223 I2C_ADDRESS:0x22 I2C_DATA :0x'{72} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 310740 I2C_ADDRESS:0x22 I2C_DATA :0x'{55} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 317257 I2C_ADDRESS:0x22 I2C_DATA :0x'{73} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 323774 I2C_ADDRESS:0x22 I2C_DATA :0x'{54} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 330291 I2C_ADDRESS:0x22 I2C_DATA :0x'{74} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 336807 I2C_ADDRESS:0x22 I2C_DATA :0x'{53} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 343325 I2C_ADDRESS:0x22 I2C_DATA :0x'{75} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 349842 I2C_ADDRESS:0x22 I2C_DATA :0x'{52} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 356359 I2C_ADDRESS:0x22 I2C_DATA :0x'{76} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 362876 I2C_ADDRESS:0x22 I2C_DATA :0x'{51} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 369393 I2C_ADDRESS:0x22 I2C_DATA :0x'{77} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 375910 I2C_ADDRESS:0x22 I2C_DATA :0x'{50} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 382427 I2C_ADDRESS:0x22 I2C_DATA :0x'{78} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 388944 I2C_ADDRESS:0x22 I2C_DATA :0x'{49} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 395461 I2C_ADDRESS:0x22 I2C_DATA :0x'{79} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 401977 I2C_ADDRESS:0x22 I2C_DATA :0x'{48} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 408495 I2C_ADDRESS:0x22 I2C_DATA :0x'{80} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 415012 I2C_ADDRESS:0x22 I2C_DATA :0x'{47} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 421529 I2C_ADDRESS:0x22 I2C_DATA :0x'{81} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 428046 I2C_ADDRESS:0x22 I2C_DATA :0x'{46} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 434563 I2C_ADDRESS:0x22 I2C_DATA :0x'{82} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 441079 I2C_ADDRESS:0x22 I2C_DATA :0x'{45} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 447597 I2C_ADDRESS:0x22 I2C_DATA :0x'{83} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 454114 I2C_ADDRESS:0x22 I2C_DATA :0x'{44} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 460631 I2C_ADDRESS:0x22 I2C_DATA :0x'{84} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 467147 I2C_ADDRESS:0x22 I2C_DATA :0x'{43} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 473665 I2C_ADDRESS:0x22 I2C_DATA :0x'{85} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 480181 I2C_ADDRESS:0x22 I2C_DATA :0x'{42} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 486699 I2C_ADDRESS:0x22 I2C_DATA :0x'{86} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 493215 I2C_ADDRESS:0x22 I2C_DATA :0x'{41} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 499733 I2C_ADDRESS:0x22 I2C_DATA :0x'{87} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 506250 I2C_ADDRESS:0x22 I2C_DATA :0x'{40} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 512767 I2C_ADDRESS:0x22 I2C_DATA :0x'{88} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 519284 I2C_ADDRESS:0x22 I2C_DATA :0x'{39} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 525801 I2C_ADDRESS:0x22 I2C_DATA :0x'{89} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 532318 I2C_ADDRESS:0x22 I2C_DATA :0x'{38} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 538835 I2C_ADDRESS:0x22 I2C_DATA :0x'{90} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 545351 I2C_ADDRESS:0x22 I2C_DATA :0x'{37} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 551869 I2C_ADDRESS:0x22 I2C_DATA :0x'{91} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 558386 I2C_ADDRESS:0x22 I2C_DATA :0x'{36} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 564903 I2C_ADDRESS:0x22 I2C_DATA :0x'{92} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 571420 I2C_ADDRESS:0x22 I2C_DATA :0x'{35} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 577937 I2C_ADDRESS:0x22 I2C_DATA :0x'{93} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 584454 I2C_ADDRESS:0x22 I2C_DATA :0x'{34} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 590971 I2C_ADDRESS:0x22 I2C_DATA :0x'{94} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 597488 I2C_ADDRESS:0x22 I2C_DATA :0x'{33} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 604005 I2C_ADDRESS:0x22 I2C_DATA :0x'{95} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 610521 I2C_ADDRESS:0x22 I2C_DATA :0x'{32} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 617039 I2C_ADDRESS:0x22 I2C_DATA :0x'{96} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 623555 I2C_ADDRESS:0x22 I2C_DATA :0x'{31} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 630073 I2C_ADDRESS:0x22 I2C_DATA :0x'{97} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 636589 I2C_ADDRESS:0x22 I2C_DATA :0x'{30} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 643107 I2C_ADDRESS:0x22 I2C_DATA :0x'{98} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 649624 I2C_ADDRESS:0x22 I2C_DATA :0x'{29} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 656141 I2C_ADDRESS:0x22 I2C_DATA :0x'{99} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 662657 I2C_ADDRESS:0x22 I2C_DATA :0x'{28} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 669175 I2C_ADDRESS:0x22 I2C_DATA :0x'{100} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 675692 I2C_ADDRESS:0x22 I2C_DATA :0x'{27} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 682209 I2C_ADDRESS:0x22 I2C_DATA :0x'{101} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 688726 I2C_ADDRESS:0x22 I2C_DATA :0x'{26} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 695243 I2C_ADDRESS:0x22 I2C_DATA :0x'{102} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 701760 I2C_ADDRESS:0x22 I2C_DATA :0x'{25} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 708277 I2C_ADDRESS:0x22 I2C_DATA :0x'{103} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 714793 I2C_ADDRESS:0x22 I2C_DATA :0x'{24} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 721311 I2C_ADDRESS:0x22 I2C_DATA :0x'{104} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 727828 I2C_ADDRESS:0x22 I2C_DATA :0x'{23} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 734345 I2C_ADDRESS:0x22 I2C_DATA :0x'{105} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 740862 I2C_ADDRESS:0x22 I2C_DATA :0x'{22} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 747379 I2C_ADDRESS:0x22 I2C_DATA :0x'{106} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 753895 I2C_ADDRESS:0x22 I2C_DATA :0x'{21} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 760413 I2C_ADDRESS:0x22 I2C_DATA :0x'{107} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 766930 I2C_ADDRESS:0x22 I2C_DATA :0x'{20} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 773447 I2C_ADDRESS:0x22 I2C_DATA :0x'{108} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 779964 I2C_ADDRESS:0x22 I2C_DATA :0x'{19} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 786481 I2C_ADDRESS:0x22 I2C_DATA :0x'{109} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 792998 I2C_ADDRESS:0x22 I2C_DATA :0x'{18} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 799515 I2C_ADDRESS:0x22 I2C_DATA :0x'{110} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 806032 I2C_ADDRESS:0x22 I2C_DATA :0x'{17} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 812549 I2C_ADDRESS:0x22 I2C_DATA :0x'{111} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 819065 I2C_ADDRESS:0x22 I2C_DATA :0x'{16} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 825583 I2C_ADDRESS:0x22 I2C_DATA :0x'{112} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 832099 I2C_ADDRESS:0x22 I2C_DATA :0x'{15} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 838617 I2C_ADDRESS:0x22 I2C_DATA :0x'{113} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 845133 I2C_ADDRESS:0x22 I2C_DATA :0x'{14} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 851651 I2C_ADDRESS:0x22 I2C_DATA :0x'{114} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 858168 I2C_ADDRESS:0x22 I2C_DATA :0x'{13} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 864685 I2C_ADDRESS:0x22 I2C_DATA :0x'{115} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 871201 I2C_ADDRESS:0x22 I2C_DATA :0x'{12} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 877719 I2C_ADDRESS:0x22 I2C_DATA :0x'{116} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 884236 I2C_ADDRESS:0x22 I2C_DATA :0x'{11} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 890753 I2C_ADDRESS:0x22 I2C_DATA :0x'{117} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 897270 I2C_ADDRESS:0x22 I2C_DATA :0x'{10} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 903787 I2C_ADDRESS:0x22 I2C_DATA :0x'{118} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 910304 I2C_ADDRESS:0x22 I2C_DATA :0x'{9} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 916821 I2C_ADDRESS:0x22 I2C_DATA :0x'{119} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 923337 I2C_ADDRESS:0x22 I2C_DATA :0x'{8} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 929855 I2C_ADDRESS:0x22 I2C_DATA :0x'{120} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 936371 I2C_ADDRESS:0x22 I2C_DATA :0x'{7} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 942889 I2C_ADDRESS:0x22 I2C_DATA :0x'{121} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 949405 I2C_ADDRESS:0x22 I2C_DATA :0x'{6} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 955923 I2C_ADDRESS:0x22 I2C_DATA :0x'{122} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 962440 I2C_ADDRESS:0x22 I2C_DATA :0x'{5} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 968957 I2C_ADDRESS:0x22 I2C_DATA :0x'{123} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 975473 I2C_ADDRESS:0x22 I2C_DATA :0x'{4} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 981991 I2C_ADDRESS:0x22 I2C_DATA :0x'{124} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 988507 I2C_ADDRESS:0x22 I2C_DATA :0x'{3} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 995025 I2C_ADDRESS:0x22 I2C_DATA :0x'{125} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 1001541 I2C_ADDRESS:0x22 I2C_DATA :0x'{2} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 1008059 I2C_ADDRESS:0x22 I2C_DATA :0x'{126} OPERATION:0x0
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 1014575 I2C_ADDRESS:0x22 I2C_DATA :0x'{1} OPERATION:0x1
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 1021093 I2C_ADDRESS:0x22 I2C_DATA :0x'{127} OPERATION:0x0
+# NCSU_INFO:Time           3099039500:ncsu_component::nb_transport():  of test_bench.env.scbd called
+# test_bench.env.scbd nb_put Actual Output from DUT name: i2c_monitored_trans transaction_count: 1027610 I2C_ADDRESS:0x22 I2C_DATA :0x'{0} OPERATION:0x1
+# ** Note: $finish    : /mnt/ncsudrive/r/rmalhot2/try/ece745_projects/project_benches/proj_2/sim/../../../verification_ip/environment_packages/i2cmb_env_pkg/src/i2cmb_generator.svh(192)
+#    Time: 30998855 ns  Iteration: 1  Instance: /top
+# End time: 20:23:33 on Apr 15,2024, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
